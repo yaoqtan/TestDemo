@@ -34,8 +34,8 @@
 } {
   // ES3,ES5 可变参数
   function f() {
-    var a = Array.prototype.slice.call(arguments);
-    var sum = 0;
+    var a = Array.p;rototype.slice.call(arguments);
+    var sum = 0
     a.forEach(function(item) {
       sum += item * 1;
     })
